@@ -1,0 +1,143 @@
+html {
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+    color: seashell;
+}
+
+/* SITE NAVIGATION */
+
+#navbar {
+  position: fixed;
+  z-index: 100;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  background-color: black;
+  top: 0;
+}
+
+.logo img {
+  height: 50px;
+  opacity: 0.9;
+  margin-left: 10px;
+  float: left;
+  margin-top: 10px;
+}
+
+.menu li {
+  display: inline;
+  float: right;
+  text-decoration: underline;
+  padding: 0 20px;
+}
+
+/* HERO */
+
+#mission {
+  margin: auto;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: auto;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+}
+
+.mission-text-background {
+  background-color: black;
+  width: 100%;
+}
+
+h2,
+h4 {
+  text-align: center;
+  padding: 0 20px;
+  line-height: 1.5em;
+}
+
+/* TEA OF THE MONTH */
+
+.tea-of-the-month-container {
+  margin: 100px auto;
+  text-align: center;
+}
+
+.tea-selections {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tea-selections img {
+  height: 200px;
+  width: 300px;
+  padding: 0 10px;
+}
+
+/* LOCATIONS */
+
+.locations-image {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  min-height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#locations {
+  padding-bottom: 0;
+}
+
+.addresses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.address-box {
+  background-color: black;
+  width: 300px;
+  margin: 20px;
+}
+
+.address-box p {
+  line-height: 2.5em;
+}
+
+
+/* CONTACT INFORMATION */
+
+.contact {
+    height: 200px;
+}
+
+/* FOOTER */
+
+#footer {
+    text-align: left;
+    margin-left: 20px;
+}
