@@ -39,6 +39,18 @@ a {
   padding: 0 20px;
 }
 
+@media only screen and (max-width: 600px) {
+  .menu li {
+    display: none;
+  }
+  .logo img {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+}
+
 /* HERO */
 
 #mission {
