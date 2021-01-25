@@ -56,7 +56,7 @@ a {
 #mission {
   margin: auto;
   background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
-  height: 700px;
+  min-height: 700px;
   width: auto;
   background-size: cover;
   display: flex;
@@ -70,6 +70,7 @@ a {
 .mission-text-background {
   background-color: black;
   width: 100%;
+  max-height: auto;
 }
 
 h2,
@@ -132,7 +133,7 @@ h4 {
 
 .address-box {
   background-color: black;
-  width: 300px;
+  min-width: 300px;
   margin: 20px;
 }
 
